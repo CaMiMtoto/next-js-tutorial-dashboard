@@ -12,7 +12,7 @@ import { Button } from '@/app/ui/button';
 
 export default function Form({ customers }: { customers: CustomerField[] }) {
   return (
-    <form>
+    <form className=" w-full md:w-1/2">
       <div className="rounded-md bg-gray-50 p-4 md:p-6">
         {/* Customer Name */}
         <div className="mb-4">
